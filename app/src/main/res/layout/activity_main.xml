@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="16dp"
+        android:layout_marginTop="44dp"
         android:width="16dp"
         android:ems="10"
         android:inputType="text"
@@ -26,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="16dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="36dp"
         android:width="16dp"
         android:ems="10"
         android:inputType="text"
@@ -48,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editCursoDesejado"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView2"
@@ -68,12 +69,12 @@
         android:id="@+id/SALVAR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="30dp"
+        android:layout_marginEnd="16dp"
         android:text="SALVAR"
         app:layout_constraintBottom_toTopOf="@+id/FINALIZAR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TelefoneContato"
-        app:layout_constraintVertical_bias="0.57" />
+        app:layout_constraintVertical_bias="0.782" />
 
     <Button
         android:id="@+id/LIMPAR"
@@ -83,10 +84,10 @@
         android:text="LIMPAR"
         app:layout_constraintBottom_toTopOf="@+id/FINALIZAR"
         app:layout_constraintEnd_toStartOf="@+id/SALVAR"
-        app:layout_constraintHorizontal_bias="0.274"
+        app:layout_constraintHorizontal_bias="0.098"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TelefoneContato"
-        app:layout_constraintVertical_bias="0.569" />
+        app:layout_constraintVertical_bias="0.782" />
 
     <Button
         android:id="@+id/FINALIZAR"
@@ -105,6 +106,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="16dp"
+        android:layout_marginTop="56dp"
         android:width="16dp"
         android:ems="10"
         android:inputType="text"
