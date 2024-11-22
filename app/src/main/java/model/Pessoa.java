@@ -1,5 +1,7 @@
 package model;
 
+import android.widget.EditText;
+
 public class Pessoa {
 
     private String PrimeiroNome;
@@ -44,7 +46,6 @@ public class Pessoa {
     public void setTelefoneContato(String telefoneContato) {
         this.TelefoneContato = telefoneContato;
     }
-
 
 }
 
